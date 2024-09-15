@@ -25,6 +25,7 @@
   -  Here is an example of a ![2 card strategy code](https://github.com/kaylamblais96/Project_4_Team_2/blob/savi/2card_strategy_code.png) ![2 card strategy chart](https://github.com/kaylamblais96/Project_4_Team_2/blob/savi/2card_stragegy_chart.png)
   -  Once the logic was finalized any unnecessary columns was dropped and a copy of the dataframe was created to export and saved to a new csv file that was used for the tableau visualization.
   -  New CSV file created from ipynb [blackjack_dataset_tableau_probability.csv](https://github.com/kaylamblais96/Project_4_Team_2/blob/savi/blackjack_dataset_tableau_probability.csv)
+  -  Link to Tableau Public Dashboard for [Should I Hit or Should I Stay?](https://public.tableau.com/app/profile/savi.rahiman4181/viz/Project4_Team2_Blackjack_Probability/ShouldIHitorShouldIStay#1)
   -  Link to packaged Tableau Workbook [Should I Hit or Should I Stay?](https://github.com/kaylamblais96/Project_4_Team_2/blob/savi/Project4_Team2_Blackjack_Probability.twbx)
   -  [blackjack_dataset_tableau_probability.csv](https://github.com/kaylamblais96/Project_4_Team_2/blob/savi/blackjack_dataset_tableau_probability.csv)
   -  Image of Tableau Dashboard ![Should I Hit or Should I Stay?](https://github.com/kaylamblais96/Project_4_Team_2/blob/savi/Tableau_DB.png)
