@@ -25,3 +25,4 @@ We are ultimately curious about whether we should hit on our starting hand, so w
 
 This information can be incredibly useful to determine what the next best moves are based on statistical outcomes of previous hands. 
 
+![IMG_5624](https://github.com/user-attachments/assets/1a89d837-30cb-4aff-aaed-cc46d46e6975)
