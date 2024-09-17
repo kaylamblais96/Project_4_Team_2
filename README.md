@@ -83,6 +83,48 @@ SQL_15_Hit
 
 This information can be incredibly useful to determine what the next best moves are based on statistical outcomes of previous hands.
 
+PYTHON ANALYSIS:
+
+
+How common is each first hand?
+
+We used pandas and matplotlib in Jupyter Notebook to perform statistical analysis on the distribution of different first hands. We found IQR and the mean, and observed an outlier in the data.
+![image](https://github.com/user-attachments/assets/1b13d278-85cd-4d73-bea8-fe7e4042865a)
+
+BoxandWhiskerPlotofFirstHandCards
+
+After looking at the distribution of the various first hands, we wanted to know what first hand is most likely to win with. With a 21 being the obvious choice, we noticed that a 20 is the next most likely to win with followed by a 19. It was interesting that after 19 the next combination to win on the first hand with is an 11. It was interesting to see how a first hand of 16 is one of the worst first hands to be dealt.
+
+![image](https://github.com/user-attachments/assets/4afb21d8-5e40-445f-a965-40a9c11b054f)
+
+
+WinPercentagebySumofFirstTwoCards
+
+We looked further into the data, and looked at the distribution number of hands played. We found that the likelyhood of playing all the way through 4 hands was very small, and it is far more common to play through 2 hands than it is to play 3 or 4.
+![image](https://github.com/user-attachments/assets/e747b372-750e-4b4e-9287-c92a636074d2)
+
+percentage_of_hands
+
+We also looked into the likelyhood of winning in terms of the number of hands played. We found that the first hand is the most common winning hand, and the likelyhood of winning decreases with the number of hands played
+
+![image](https://github.com/user-attachments/assets/197d7440-ecba-48a8-ba51-dd417d22a69a)
+
+
+WinPercentagebyNumberofHandsPlayed
+
+We wanted to how the different hands were correlated with wins. It was found that the third hand had the most significant correlation, although negative, with the likelihood of winning. This could help explain the large drop off in the number of wins after the second hand.
+![image](https://github.com/user-attachments/assets/a7e1be3a-4fea-4e01-9b34-7663e4721edc)
+
+
+CorrelationBetweenHandsandWins
+
+We looked further into the data to see if the individual cards between the player and dealer were correlated in any way. An interesting finding was that player cards and dealer cards were negatively correlated.
+
+player_vs_dealer_correl
+
+![image](https://github.com/user-attachments/assets/797ff65c-24d7-476a-8c2c-02e57fbed0ef)
+
+
 
 
 
