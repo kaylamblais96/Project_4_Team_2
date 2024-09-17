@@ -1,6 +1,8 @@
 Should I stay or should I hit?
 
 The goal of this exercise was to create a Tableau Visualization to answer the question "Should I Hit or Should I Stay?"
+
+
 Original Data Source:
 Kaggle BlackJack Viz + Machine Learning
 Includes 900k hands of BlackJack Results includes
