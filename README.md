@@ -146,7 +146,7 @@ The first attempt utilized the logistic regression model, with the x variables (
 
 
 ### Attempt 2: 
-The second attempt also utilized the logistic regression model, however, this attempt added a few features to the model in an attempt to refine it, and increase the accuracy score. Not only did the model contain the features “card1” and card2” (the player’s starting hand), but also “dealcard1”, “dealcard2”, and “ply2cardsum”. “Dealcard1” and “dealcard2” represent the dealer’s starting hand. “Ply2cardsum” is another column used to represent the player’s starting hand. After adding these three features, the model’s accuracy score increased to 58%. However, looking again at the confusion matrix, this model was also not able to predict loss whatsoever. Another attempt need to be made. 
+The second attempt also utilized the logistic regression model, however, this attempt added a few features to the model in an attempt to refine it, and increase the accuracy score. Not only did the model contain the features “card1” and card2” (the player’s starting hand), but also “dealcard1”, “dealcard2”, and “ply2cardsum”. “Dealcard1” and “dealcard2” represent the dealer’s starting hand. “Ply2cardsum” is another column used to represent the player’s starting hand. After adding these three features, the model’s accuracy score increased to 58%. However, looking again at the confusion matrix, this model was also not able to predict loss whatsoever. Another attempt needed to be made. 
 
 ![image](https://github.com/user-attachments/assets/aa2fda50-006c-4af5-af2a-91ca8218edd4)
 
