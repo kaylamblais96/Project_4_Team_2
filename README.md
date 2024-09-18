@@ -131,17 +131,38 @@ Image of Tableau Dashboard Should I Hit or Should I Stay?
 
 ## MACHINE LEARNING:
 
-__The goal of the machine learning model was to accurately predict a player’s outcome, be it “Win”, “Loss” or “Push (Draw)” in a game of Blackjack. There were three attempts made in the creation of the machine learning model. For each attempt, the predicted variable (y variable) stayed consistent. This variable was the “winloss” column, in the dataset.__
+#### The goal of the machine learning model was to accurately predict a player’s outcome, be it “Win”, “Loss” or “Push (Draw)” in a game of Blackjack. There were three attempts made in the creation of the machine learning model. For each attempt, the predicted variable (y variable) stayed consistent. This variable was the “winloss” column, in the dataset.
+
+![image](https://github.com/user-attachments/assets/c407cdc5-681c-490f-b5ed-486eff4b4f61)
 
 ### Attempt 1: 
 The first attempt utilized the logistic regression model, with the x variables (features) being “card1” and “card2”. The original intent of the model was to accurately predict the player’s outcome by looking at their starting hand. The “card1” and “card2” columns represent the players starting hand. This first attempt yielded an accuracy score of 55%. When looking at the confusion matrix, something important to note, is the complete lack of “predicted losses”. Meaning this model was unable to predict any player loss. Another attempt needed to be made. 
 
+![image](https://github.com/user-attachments/assets/a5f0b05f-daca-4801-ae32-b9a85ab33b56)
+
+![image](https://github.com/user-attachments/assets/dd364014-6727-4742-a489-fe04017076c0)
+
+![image](https://github.com/user-attachments/assets/191641d4-a7b5-4548-9e3d-07f1d353a7d4)
+
+
 ### Attempt 2: 
 The second attempt also utilized the logistic regression model, however, this attempt added a few features to the model in an attempt to refine it, and increase the accuracy score. Not only did the model contain the features “card1” and card2” (the player’s starting hand), but also “dealcard1”, “dealcard2”, and “ply2cardsum”. “Dealcard1” and “dealcard2” represent the dealer’s starting hand. “Ply2cardsum” is another column used to represent the player’s starting hand. After adding these three features, the model’s accuracy score increased to 58%. However, looking again at the confusion matrix, this model was also not able to predict loss whatsoever. Another attempt need to be made. 
+
+![image](https://github.com/user-attachments/assets/aa2fda50-006c-4af5-af2a-91ca8218edd4)
+
+![image](https://github.com/user-attachments/assets/9378c20a-e444-47ce-a0cc-ea760284cbea)
+
+![image](https://github.com/user-attachments/assets/a017d224-c6c5-41b8-acfc-39da683a9e38)
+
 
 ### Attempt 3: 
 The final attempt, no longer utilized the logistic regression model, instead switched to random forest, to coincide with the random nature of data collected from playing cards. This model kept the features to same as attempt 2, in an attempt to build upon the accuracy of previous models. This attempt performed with 70% accuracy, and also was able to predict loss, unlike the attempts before it. Although we as a team were aiming for an accuracy score of at least 75%, after doing independent research, we discovered that with most games a chance, an accuracy score between 50%-60% was most common, therefore we were pleased with this model and its accuracy.
 
+![image](https://github.com/user-attachments/assets/5aabbdf7-0472-4e99-b991-d650f1cd48a8)
+
+![image](https://github.com/user-attachments/assets/8ed2987c-a51f-48d5-be5b-a15a2ca33653)
+
+![image](https://github.com/user-attachments/assets/b5679aff-3c64-453e-811c-0572e9b18ef3)
 
 
 
