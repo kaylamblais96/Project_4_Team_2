@@ -1,3 +1,5 @@
+#Project 4- Team 2: Kayla Blais, Mae Bouazzaoui, Daniel Pulliam, Savi Rahiman, Madeline Rondino
+
 Should I stay or should I hit?
 
 The goal of this exercise was to create a Tableau Visualization to answer the question "Should I Hit or Should I Stay?"
