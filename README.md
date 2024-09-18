@@ -1,4 +1,4 @@
-#Project 4- Team 2: Kayla Blais, Mae Bouazzaoui, Daniel Pulliam, Savi Rahiman, Madeline Rondino
+# Project 4- Team 2: Kayla Blais, Mae Bouazzaoui, Daniel Pulliam, Savi Rahiman, Madeline Rondino
 
 Should I stay or should I hit?
 
