@@ -1,18 +1,18 @@
-# Project 4- Team 2: Kayla Blais, Mae Bouazzaoui, Daniel Pulliam, Savi Rahiman, Madeline Rondino
+# Project 4- Team 2: 
+## Kayla Blais, Mae Bouazzaoui, Daniel Pulliam, Savi Rahiman, Madeline Rondino
+
+### Original Data Source:
+- Kaggle BlackJack Viz + Machine Learning
+- Includes 900k hands of BlackJack Results includes PlayNo, card1, card2, card3, card4, card5, sumof cards, dealcard1, dealcard2, dealcard3, dealcard4, dealcard5, sumofdeal, blkjck, winloss, plybustbeat, dlbustbeat, plwinamt, dlwinamt & ply2cardsum.
+- Link to [blkjckhands_reduced.csv]
+
+### Limitation:
+Due to size of 61.77MB the team opted to use a third of the size to 300K records to allow upload to git hub at 20.6 MB.
+This reduced fille of 300K hands was saved as blkjckhands_reduced.csv
 
 Should I stay or should I hit?
 
 The goal of this exercise was to create a Tableau Visualization to answer the question "Should I Hit or Should I Stay?"
-
-
-Original Data Source:
-Kaggle BlackJack Viz + Machine Learning
-Includes 900k hands of BlackJack Results includes
-PlayNo, card1, card2, card3, card4, card5, sumof cards, dealcard1, dealcard2, dealcard3, dealcard4, dealcard5, sumofdeal, blkjck, winloss, plybustbeat, dlbustbeat, plwinamt, dlwinamt & ply2cardsum.
-Link to blkjckhands_reduced.csv
-Limitation:
-Due to size of 61.77MB the team opted to use a third of the size to 300K records to allow upload to git hub at 20.6 MB.
-This reduced fille of 300K hands was saved as blkjckhands_reduced.csv
 Method: Reference Google Collab Ipython Notebook : blackjack_dataset_tableau_probability.ipynb for full code and text narrative.
 Import dependencies and file path to blkjckhands_reduced.csv
 import pandas as pd
