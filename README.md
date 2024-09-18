@@ -119,10 +119,10 @@ Here is an example of a 2 card strategy code 2 card strategy chart
 
 
 Once the logic was finalized any unnecessary columns was dropped and a copy of the dataframe was created to export and saved to a new csv file that was used for the tableau visualization.
-New CSV file created from ipynb blackjack_dataset_tableau_probability.csv
-Link to Tableau Public Dashboard for Should I Hit or Should I Stay?
-Link to packaged Tableau Workbook Should I Hit or Should I Stay?
-blackjack_dataset_tableau_probability.csv
+New CSV file created [ipynb blackjack_dataset_tableau_probability.csv](https://github.com/kaylamblais96/Project_4_Team_2/blob/main/Resources/blackjack_dataset_tableau_probability.csv)
+Link to Tableau Public Dashboard for [Should I Hit or Should I Stay?](https://public.tableau.com/app/profile/savi.rahiman4181/viz/Project4_Team2_Blackjack_Probability/ShouldIHitorShouldIStay)
+Link to packaged Tableau Workbook [Should I Hit or Should I Stay?](https://github.com/kaylamblais96/Project_4_Team_2/blob/main/Tableau/Project4_Team2_Blackjack_Probability.twbx)
+
 Image of Tableau Dashboard Should I Hit or Should I Stay?
 
 ![image](https://github.com/user-attachments/assets/964a91b3-2384-4674-83db-ab3c70f344ad)
