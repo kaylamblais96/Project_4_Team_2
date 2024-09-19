@@ -98,7 +98,7 @@ player_vs_dealer_correl
 
 The goal of this exercise was to create a Tableau Visualization to answer the question "Should I Hit or Should I Stay?"
 
-### Method: Reference Google Collab Ipython Notebook : blackjack_dataset_tableau_probability.ipynb for full code and text narrative.
+### Method: Reference Google Collab Ipython Notebook : [blackjack_dataset_tableau_probability.ipynb](https://github.com/kaylamblais96/Project_4_Team_2/blob/main/Jupyter%20Notebooks/blackjack_dataset_tableau_probability.ipynb) for full code and text narrative.
 Import dependencies and file path to blkjckhands_reduced.csv
 import pandas as pd
 import tensorflow as tf
